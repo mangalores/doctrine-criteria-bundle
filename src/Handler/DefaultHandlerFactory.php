@@ -1,11 +1,11 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Handler;
+namespace Lores\Doctrine\CriteriaBundle\Handler;
 
 use Doctrine\Common\Collections\Criteria;
-use Lores\Framework\CriteriaBundle\Adapter\AdapterInterface;
-use Lores\Framework\CriteriaBundle\Extractor\FilterExtractor;
-use Lores\Framework\CriteriaBundle\Extractor\SortExtractor;
+use Lores\Doctrine\CriteriaBundle\Adapter\AdapterInterface;
+use Lores\Doctrine\CriteriaBundle\Extractor\FilterExtractor;
+use Lores\Doctrine\CriteriaBundle\Extractor\SortExtractor;
 
 final class DefaultHandlerFactory
 {

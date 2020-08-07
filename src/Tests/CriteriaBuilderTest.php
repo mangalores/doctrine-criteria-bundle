@@ -1,18 +1,18 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test;
+namespace Lores\Doctrine\CriteriaBundle\Tests;
 
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\Common\Collections\ExpressionBuilder;
 use Doctrine\Common\Collections\Expr\Comparison;
-use Lores\Framework\CriteriaBundle\CriteriaBuilder;
-use Lores\Framework\CriteriaBundle\Handler\CriteriaHandlerInterface;
+use Lores\Doctrine\CriteriaBundle\CriteriaBuilder;
+use Lores\Doctrine\CriteriaBundle\Handler\CriteriaHandlerInterface;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 use Mockery\MockInterface;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\CriteriaBuilder
+ * @covers \Lores\Doctrine\CriteriaBundle\CriteriaBuilder
  */
 final class CriteriaBuilderTest extends MockeryTestCase
 {

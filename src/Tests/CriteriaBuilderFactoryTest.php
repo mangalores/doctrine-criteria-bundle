@@ -1,15 +1,15 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test;
+namespace Lores\Doctrine\CriteriaBundle\Tests;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Mapping\ClassMetadata;
-use Lores\Framework\CriteriaBundle\CriteriaBuilderFactory;
+use Lores\Doctrine\CriteriaBundle\CriteriaBuilderFactory;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\CriteriaBuilderFactory
+ * @covers \Lores\Doctrine\CriteriaBundle\CriteriaBuilderFactory
  */
 final class CriteriaBuilderFactoryTest extends MockeryTestCase
 {

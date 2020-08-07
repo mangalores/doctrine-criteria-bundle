@@ -1,10 +1,10 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle;
+namespace Lores\Doctrine\CriteriaBundle;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Lores\Framework\CriteriaBundle\Adapter\DoctrineORMAdapter;
-use Lores\Framework\CriteriaBundle\Handler\DefaultHandlerFactory;
+use Lores\Doctrine\CriteriaBundle\Adapter\DoctrineORMAdapter;
+use Lores\Doctrine\CriteriaBundle\Handler\DefaultHandlerFactory;
 
 final class CriteriaBuilderFactory implements CriteriaBuilderFactoryInterface
 {

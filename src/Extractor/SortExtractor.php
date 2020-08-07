@@ -1,12 +1,12 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Extractor;
+namespace Lores\Doctrine\CriteriaBundle\Extractor;
 
 use Doctrine\Common\Collections\Criteria;
-use Lores\Framework\CriteriaBundle\Adapter\AdapterInterface;
-use Lores\Framework\CriteriaBundle\Exception\InvalidDirectionException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidFieldNameException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidSortPatternException;
+use Lores\Doctrine\CriteriaBundle\Adapter\AdapterInterface;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidDirectionException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidFieldNameException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidSortPatternException;
 
 final class SortExtractor implements SortExtractorInterface
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Exception;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Exception;
 
-use Lores\Framework\CriteriaBundle\Exception\InvalidSortPatternException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidSortPatternException;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Exception\InvalidSortPatternException
+ * @covers \Lores\Doctrine\CriteriaBundle\Exception\InvalidSortPatternException
  */
 final class InvalidSortPatternExceptionTest extends MockeryTestCase
 {

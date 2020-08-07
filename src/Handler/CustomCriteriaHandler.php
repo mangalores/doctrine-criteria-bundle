@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Handler;
+namespace Lores\Doctrine\CriteriaBundle\Handler;
 
 use Closure;
 use Doctrine\Common\Collections\Criteria;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Adapter;
+namespace Lores\Doctrine\CriteriaBundle\Adapter;
 
 interface AdapterInterface
 {

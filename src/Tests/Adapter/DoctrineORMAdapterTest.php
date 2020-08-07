@@ -1,16 +1,16 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Adapter;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Adapter;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Mapping\ClassMetadata;
-use Lores\Framework\CriteriaBundle\Adapter\DoctrineORMAdapter;
+use Lores\Doctrine\CriteriaBundle\Adapter\DoctrineORMAdapter;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Adapter\DoctrineORMAdapter
+ * @covers \Lores\Doctrine\CriteriaBundle\Adapter\DoctrineORMAdapter
  */
 final class DoctrineORMAdapterTest extends MockeryTestCase
 {

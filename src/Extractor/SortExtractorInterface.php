@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Extractor;
+namespace Lores\Doctrine\CriteriaBundle\Extractor;
 
 interface SortExtractorInterface
 {

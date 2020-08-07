@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle;
+namespace Lores\Doctrine\CriteriaBundle;
 
 interface CriteriaBuilderFactoryInterface
 {

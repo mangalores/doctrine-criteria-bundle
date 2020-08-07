@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Adapter;
+namespace Lores\Doctrine\CriteriaBundle\Adapter;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Mapping\ClassMetadata;

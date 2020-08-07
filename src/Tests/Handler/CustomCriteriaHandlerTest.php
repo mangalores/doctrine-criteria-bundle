@@ -1,13 +1,13 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Handler;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Handler;
 
 use Doctrine\Common\Collections\Criteria;
-use Lores\Framework\CriteriaBundle\Handler\CustomCriteriaHandler;
+use Lores\Doctrine\CriteriaBundle\Handler\CustomCriteriaHandler;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Handler\CustomCriteriaHandler
+ * @covers \Lores\Doctrine\CriteriaBundle\Handler\CustomCriteriaHandler
  */
 final class CustomCriteriaHandlerTest extends MockeryTestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Handler;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Handler;
 
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\Common\Collections\Expr\Expression;
-use Lores\Framework\CriteriaBundle\Adapter\AdapterInterface;
-use Lores\Framework\CriteriaBundle\Handler\CustomCriteriaHandler;
-use Lores\Framework\CriteriaBundle\Handler\DefaultHandlerFactory;
+use Lores\Doctrine\CriteriaBundle\Adapter\AdapterInterface;
+use Lores\Doctrine\CriteriaBundle\Handler\CustomCriteriaHandler;
+use Lores\Doctrine\CriteriaBundle\Handler\DefaultHandlerFactory;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Handler\DefaultHandlerFactory
+ * @covers \Lores\Doctrine\CriteriaBundle\Handler\DefaultHandlerFactory
  */
 final class DefaultHandlerFactoryTest extends MockeryTestCase
 {

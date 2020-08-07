@@ -1,11 +1,11 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle;
+namespace Lores\Doctrine\CriteriaBundle;
 
 use Closure;
 use Doctrine\Common\Collections\Criteria;
-use Lores\Framework\CriteriaBundle\Handler\CriteriaHandlerInterface;
-use Lores\Framework\CriteriaBundle\Handler\CustomCriteriaHandler;
+use Lores\Doctrine\CriteriaBundle\Handler\CriteriaHandlerInterface;
+use Lores\Doctrine\CriteriaBundle\Handler\CustomCriteriaHandler;
 
 final class CriteriaBuilder implements CriteriaBuilderInterface
 {

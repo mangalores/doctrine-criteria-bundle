@@ -1,18 +1,17 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Extractor;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Extractor;
 
-use Lores\Framework\CriteriaBundle\Adapter\AdapterInterface;
-use Lores\Framework\CriteriaBundle\Exception\InvalidDirectionException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidFieldNameException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidSortPatternException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidValueException;
-use Lores\Framework\CriteriaBundle\Extractor\SortExtractor;
+use Lores\Doctrine\CriteriaBundle\Adapter\AdapterInterface;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidDirectionException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidFieldNameException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidSortPatternException;
+use Lores\Doctrine\CriteriaBundle\Extractor\SortExtractor;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Extractor\SortExtractor
+ * @covers \Lores\Doctrine\CriteriaBundle\Extractor\SortExtractor
  */
 final class SortExtractorTest extends MockeryTestCase
 {

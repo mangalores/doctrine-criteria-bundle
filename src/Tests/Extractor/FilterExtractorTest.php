@@ -1,18 +1,18 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Extractor;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Extractor;
 
 use Doctrine\Common\Collections\Expr\Comparison;
-use Lores\Framework\CriteriaBundle\Adapter\AdapterInterface;
-use Lores\Framework\CriteriaBundle\Exception\InvalidFieldNameException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidOperatorException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidValueException;
-use Lores\Framework\CriteriaBundle\Extractor\FilterExtractor;
+use Lores\Doctrine\CriteriaBundle\Adapter\AdapterInterface;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidFieldNameException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidOperatorException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidValueException;
+use Lores\Doctrine\CriteriaBundle\Extractor\FilterExtractor;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Extractor\FilterExtractor
+ * @covers \Lores\Doctrine\CriteriaBundle\Extractor\FilterExtractor
  */
 final class FilterExtractorTest extends MockeryTestCase
 {

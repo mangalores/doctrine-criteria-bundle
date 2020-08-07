@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Exception;
+namespace Lores\Doctrine\CriteriaBundle\Exception;
 
 final class InvalidFieldNameException extends FilterCriteriaException
 {

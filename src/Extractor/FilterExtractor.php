@@ -1,13 +1,13 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Extractor;
+namespace Lores\Doctrine\CriteriaBundle\Extractor;
 
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\Common\Collections\ExpressionBuilder;
-use Lores\Framework\CriteriaBundle\Adapter\AdapterInterface;
-use Lores\Framework\CriteriaBundle\Exception\InvalidFieldNameException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidOperatorException;
-use Lores\Framework\CriteriaBundle\Exception\InvalidValueException;
+use Lores\Doctrine\CriteriaBundle\Adapter\AdapterInterface;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidFieldNameException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidOperatorException;
+use Lores\Doctrine\CriteriaBundle\Exception\InvalidValueException;
 
 final class FilterExtractor implements FilterExtractorInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Exception;
+namespace Lores\Doctrine\CriteriaBundle\Exception;
 
 class FilterCriteriaException extends \InvalidArgumentException
 {

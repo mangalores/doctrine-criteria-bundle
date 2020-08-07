@@ -1,13 +1,13 @@
 <?php
 
-namespace Lores\Framework\CriteriaBundle\Test\Exception;
+namespace Lores\Doctrine\CriteriaBundle\Tests\Exception;
 
-use Lores\Framework\CriteriaBundle\Exception\FilterCriteriaException;
+use Lores\Doctrine\CriteriaBundle\Exception\FilterCriteriaException;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 /**
- * @covers \Lores\Framework\CriteriaBundle\Exception\FilterCriteriaException
+ * @covers \Lores\Doctrine\CriteriaBundle\Exception\FilterCriteriaException
  */
 final class FilterCriteriaExceptionTest extends MockeryTestCase
 {

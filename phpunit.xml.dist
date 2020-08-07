@@ -15,7 +15,7 @@
          bootstrap="./vendor/autoload.php">
     <testsuites>
         <testsuite name="full">
-            <directory>./tests</directory>
+            <directory>./src/Tests</directory>
         </testsuite>
     </testsuites>
     <filter>
@@ -23,6 +23,7 @@
             <directory>./src</directory>
             <exclude>
                 <directory suffix="Interface.php">./src/*</directory>
+                <directory>./src/Tests</directory>
             </exclude>
         </whitelist>
     </filter>
